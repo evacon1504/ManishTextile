@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+body{
+  background-color: black;
+}
+.title {
+  text-align: center;
+  justify-content: center;
+  margin: 100px 0 0 0;
+  color: #FFF4EA;
+  font-family: Arial, sans-serif;
+}
+.title h6 {
+  color: grey;
+  margin: 10px 0;
+}
+h3{
+  color: white;
+}
+.gender{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  color: white;
+}
+.gender button{
+  all: unset;
+  background-color: #34353E;
+  padding: 10px 15px;
+  border-radius: 1000px;
+  position: relative;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gender button::after{
+  content: '';
+  position: absolute;
+  height: 107%;
+  width: 102%;
+  background-image: linear-gradient(to bottom right, #008cff, #e100ff);
+  border-radius: 1000px;
+  z-index: -1;
+}
+.gender button:hover{
+  z-index: 0;
+}
