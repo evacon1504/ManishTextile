@@ -19,6 +19,10 @@ body{
 h3{
   color: white;
 }
+.gender a {
+  text-decoration: none;
+  color: white;
+}
 .gender{
   display: flex;
   flex-direction: column;

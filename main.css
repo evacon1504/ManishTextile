@@ -34,7 +34,7 @@ button::after{
 button:hover{
   z-index: 0;
 }
-button a{
+a{
   text-decoration: none;
   color: white;
   font-weight: lighter;
