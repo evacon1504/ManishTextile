@@ -73,6 +73,7 @@ a{
 }
 .poster{
   display: flex;
+  justify-content: center;
 }
 .featured{
   color: black;
